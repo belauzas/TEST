@@ -5,3 +5,11 @@ h1 {
     font-style: italic;
     letter-spacing: 2px;
 }
+
+#citrina {
+    background-color: blue;
+    border: 5px solid blue;
+    width: 50px;
+    padding: 0 0 0 5px;
+    margin: 0 10px;
+}
