@@ -1,0 +1,8 @@
+#citrina {
+    height: 400px;
+    width: 200px;
+    margin: 50px;
+    background-color: yellow;
+    border: red 1px dashed;
+    border-radius: 50px;
+}
