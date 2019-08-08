@@ -1,0 +1,7 @@
+body > h1 {
+    letter-spacing: 5px;
+    text-transform: capitalize;
+    font-weight: 100;
+    text-decoration: underline dashed green;
+    color: red;
+}
