@@ -1,0 +1,30 @@
+
+/* nustatomas šriftas */
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* nustatomas teksto dydis */
+
+h1 {
+    font-size: 40px;
+}
+
+/* nustatoma teksto spalva */
+
+h1 {
+    color: red;
+}
+
+/* nustatomas tarpas tarp simbolių*/
+
+h1 {
+    letter-spacing: 2px;
+}
+
+/* visos raidės padaromos didžiosios */
+
+h1 {
+    text-transform: uppercase;
+}
