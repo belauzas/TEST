@@ -26,3 +26,5 @@ if ( oziukas > 0 ) {
     console.log( oziukas + ' kas pavoge oziukus?' );
 }
 
+
+
