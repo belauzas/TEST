@@ -1,0 +1,18 @@
+#citrina {
+    background-color: aqua;
+
+    /* nustatomas elemento plotis */
+    width: 400px;
+
+    /* nustatomas elemento aukštis */
+    height: 400px;
+
+     /* nustatomas elemento siena aka border'is  */
+     border: 10px solid red;
+
+    /* užapvalinami elemento kampai */
+    border-radius: 40px;
+
+    /* padaroma laisva vieta aplink elementą */
+    margin: 60px;    
+}
