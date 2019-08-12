@@ -1,4 +1,6 @@
 Išvardinti bent 3 HTML tag'us, kurių negali būti panaudota daugiau nei 1 kartą:
-1 - 
-2 - 
-3 - 
+1 - html
+2 - head
+3 - body
+4 - title
+5 - base

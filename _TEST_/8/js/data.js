@@ -1,7 +1,7 @@
 "use strict";
 
 const page_header = {
-    logo: 'b1.jpg',
+    logo: 'b1.png',
     nav: [
         {
             link: '/',
@@ -22,3 +22,29 @@ const page_header = {
         }
     ]
 }
+
+function header(data) {
+    let HTML = '', 
+        nuorodos = '';
+
+    // logotipas
+    HTML += `<img src="./img/${data.logo}" alt="logo">`;
+
+    // nuorodos
+    for ( let i=0; i<data.nav.length; i++ ) {
+        nuorodos += `<a href="${data.nav[i].link}"
+                        class="${data.nav[i].active === true ? 'active' : ''}">
+                        ${data.nav[i].title}
+                    </a>`;
+    }
+
+    // navigacija
+    HTML += `<nav>
+                ${nuorodos}
+            </nav>`
+
+
+    return HTML;
+}
+
+document.querySelector('header').innerHTML = header(page_header);

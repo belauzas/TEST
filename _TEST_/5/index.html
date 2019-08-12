@@ -11,5 +11,14 @@
     <p>Parašyti vieną IF išraišką, kuri teikinant sąlygą gražintu kintamąjį su reikšme 'true', o netenkinant - 'false'</p>
     <p>Sąlyga: ar duodamas tikrinti 'x' yra sveikasis skaičius ir dalinasi be liekanos iš 3 arba 7?</p>
     <p>Tai atlikti atskirame JavaScript faile.</p>
+
+    <script>
+        let x = 8;
+        if ( Number.isInteger(x) && (x%3===0 || x%7===0) ) {
+            console.log(true);
+        } else {
+            console.log(false);
+        }
+    </script>
 </body>
 </html>

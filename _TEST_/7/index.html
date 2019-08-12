@@ -18,5 +18,35 @@
     <ul id="cards">
         <!-- <li>Kortų poros pavadinimai, kurie tenkiną norimą rezultatą</li> -->
     </ul>
+
+    <script>
+        const tikslas = 21;
+        const kortos = [
+            {name: '2', value: 2},
+            {name: '3', value: 3},
+            {name: '4', value: 4},
+            {name: '5', value: 5},
+            {name: '6', value: 6},
+            {name: '7', value: 7},
+            {name: '8', value: 8},
+            {name: '9', value: 9},
+            {name: '10', value: 10},
+            {name: 'valetas', value: 10},
+            {name: 'dama', value: 10},
+            {name: 'karalius', value: 10},
+            {name: 'tuzas', value: 11}
+        ];
+
+        let HTML = '';
+        for ( let pirma=0; pirma< kortos.length; pirma++) {
+            for ( let antra=pirma+1; antra<kortos.length; antra++ ) {
+                if ( kortos[pirma].value + kortos[antra].value === 21 ) {
+                    HTML += `<div>${kortos[pirma].name} + ${kortos[antra].name}</div>`;
+                }
+            }
+        }
+
+        document.querySelector('#cards').innerHTML = HTML;
+    </script>
 </body>
 </html>
